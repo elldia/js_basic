@@ -41,3 +41,10 @@
 2. 해당 변수의 데이터타입을 구분하기 위해 typeof 함수확인
     * `console.log(typeof(num));` //Number(숫자)
     * `console.log(typeof(str));` //String(문자)
+## 함수 종류
+* `prompt('질문')` : 질문답변 창 띄우는 함수
+    * `input` 태그로 입력받는 사용자입력값도 모두 문자로 처리
+    * 쇼핑몰의 수량 `input`도 문자로 기본적으로 인식됨
+* `Number(숫자로변환하고싶은데이터 또는 함수)`
+* prompt(Number()) **X** prompt 질문입력위치에 다른 함수작성
+* Number(prompt()) **O** Number괄호안은 변환대상 prompt함수작성가능
